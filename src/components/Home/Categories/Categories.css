@@ -1,0 +1,13 @@
+.categoriesContainer {
+  width: 100%;
+  text-align: center;
+  padding: 10% 0%;
+  margin: auto;
+  /* height: 100vh; */
+}
+
+.categoriesContainer img {
+  width: 50px;
+  height: 50px;
+  /* margin: auto; */
+}

@@ -1,0 +1,38 @@
+.homeOuterContainer {
+  width: 100%;
+}
+
+.homeContainer {
+  width: 80%;
+  margin: auto;
+}
+
+.homeHeader h1 {
+  color: #2375c4;
+  margin: 30px 0;
+}
+.homeItems {
+  width: 100%;
+  border: 1px solid darkblue;
+  height: 70vh;
+  display: flex;
+}
+.homeItemsMenu {
+  width: 10%;
+  height: 100%;
+  /* margin: auto; */
+  border-right: 3px solid #2375c4;
+}
+.homeContent {
+  width: 65%;
+  padding: 0 10px;
+  height: 70vh;
+  overflow: scroll;
+}
+
+* {
+  -ms-overflow-style: none;
+}
+::-webkit-scrollbar {
+  display: none;
+}

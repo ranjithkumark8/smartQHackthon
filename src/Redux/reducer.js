@@ -7,7 +7,7 @@ import {
 const initialData = {
   isLoading: true,
   isError: false,
-  data: [],
+  data: {},
 };
 
 export const dataReducer = (state = initialData, { type, payload }) => {
@@ -23,7 +23,7 @@ export const dataReducer = (state = initialData, { type, payload }) => {
         ...state,
         isLoading: false,
         isError: false,
-        data: [payload],
+        data: payload,
       };
     }
     case GET_DATA_FAILURE: {
