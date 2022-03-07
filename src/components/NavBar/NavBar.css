@@ -1,0 +1,16 @@
+.navBarOuterContainer {
+  width: 100%;
+  border-bottom: 2px;
+  box-shadow: 0 -5px 3px -3px rgb(247, 247, 246),
+    0 5px 3px -3px rgb(124, 124, 115);
+}
+.navBarContainer {
+  width: 80%;
+  margin: auto;
+  padding: 30px 10px 10px;
+}
+
+.navBarImage img {
+  width: 150px;
+  height: 50px;
+}
